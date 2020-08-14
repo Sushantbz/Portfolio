@@ -1,0 +1,204 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* navogation logo */
+
+.nav {
+    width: 25%;
+    height: 127px;
+    float: left;
+}
+
+.logo img {
+    width: 93px;
+    margin-left: 79px;
+    margin-top: 40px;
+}
+
+
+/* menu start */
+
+.nav-menu {
+    width: 75%;
+    height: 118px;
+    float: right;
+}
+
+.nav-menu ul {
+    width: 100%;
+    display: table;
+    text-align: right;
+    list-style: none;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    float: none;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    display: block;
+    padding: 2px;
+    margin-right: 94px;
+    margin-top: 57px;
+}
+
+.nav-menu a:hover {
+    color: blue;
+    text-shadow: 4px solid blue;
+}
+
+a.style {
+    border: 2px solid blue;
+    padding: 15px;
+    border-radius: 21px;
+}
+
+a.style:hover {
+    background-color: blue;
+    color: white;
+}
+
+
+/* Header ends */
+
+.body {
+    text-align: center;
+    display: block;
+    padding: 172px;
+}
+
+.body h2 {
+    font-family: sans-serif;
+    font-size: -webkit-xxx-large;
+    padding: 18px;
+}
+
+.body h3 {
+    font-family: monospace;
+    padding: 10px;
+    font-size: large
+}
+
+.body img {
+    padding-top: 57px;
+}
+
+.container2 img {
+    padding: 114px;
+}
+
+
+/* 
+Info about me start
+ */
+
+.infoaboutme {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: blueviolet;
+    padding-top: 165px;
+    margin-top: -291px;
+    padding-bottom: 281px;
+}
+
+.info {
+    display: block;
+    width: 90%;
+    text-align: center;
+    padding-left: 329px;
+    padding-right: 183px;
+}
+
+.info h1 {
+    font-family: sans-serif;
+    color: white;
+    font-size: xx-large;
+    padding: 22px;
+}
+
+.info h4 {
+    font-family: cursive;
+    color: white;
+    text-transform: unset;
+    word-spacing: 6px;
+}
+
+
+/* Info end here */
+
+.container1 {
+    display: block;
+    width: 74%;
+    margin-left: 167px;
+    padding: 32px;
+    background-color: lavender;
+    margin-top: -114px;
+    text-align: center;
+}
+
+.img img {
+    padding: 15px;
+}
+
+.img h1 {
+    font-family: cursive;
+    padding: 14px;
+    display: block;
+    border-style: outset;
+}
+
+.img p {
+    font-family: cursive;
+    padding: 25px;
+}
+
+.img p.enjoy {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    font-size: xx-large;
+}
+
+.list {
+    list-style: none;
+    font-family: fantasy;
+    font-size: xx-large;
+}
+
+
+/* Experience ends */
+
+.work {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    margin-top: -5px;
+    background-color: teal;
+    padding-top: 105px;
+    padding-bottom: 131px;
+}
+
+.head h1 {
+    color: white;
+    font-size: 99px;
+    border: 5px solid dodgerblue;
+    border-style: dotted;
+}
+
+.head p {
+    padding: 43px;
+    text-align: center;
+    font-size: xx-large;
+    color: snow;
+}
+
+
+}
